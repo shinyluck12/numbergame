@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-    <script src="js/script.js"></script>
-</body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>숫자 맞추기 게임</h1>
+    <div id="result-area">결과가 나온다</div>
+    <div id="chance-area">남은 기회 : 5 회</div>
+    <input
+      id="user-input"
+      type="number"
+      style="width: 30%"
+      placeholder="0 ~ 100 까지의 숫자를 입력하세요."
+    />
+    <button id="play-button">Go!</button>
+    <button id="reset-btn">RESET</button>
+    <script src="js/main.js"></script>
+  </body>
 </html>
